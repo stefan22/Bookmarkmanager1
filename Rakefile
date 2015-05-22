@@ -8,7 +8,7 @@ task default: [:cop, :spec]
 
 
 require 'data_mapper'
-require './app/data_mapper_setup'
+require './data_mapper_setup'
 
 task :auto_upgrade do
   # auto_upgrade makes non-destructive changes.

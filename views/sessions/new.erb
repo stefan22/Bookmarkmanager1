@@ -1,7 +1,15 @@
 Please sign in.
 
-<form method='post' action='/sessions'>
-  Email: <input type='text' name='email'>
-  Password: <input type='password' name='password'>
-  <input type='submit' value='Sign in'>
-</form>
+<section id="sign-in">
+  <form method='post' action='/sessions'>
+    Email: <input type='text' name='email'>
+    Password: <input type='password' name='password'>
+    <input type='submit' value='Sign in'>
+  </form>
+</section>
+<section id="password-recovery">
+  <form method="post" action="/users/password_reset">
+    Email: <input type="email" name="email">
+    <input type="submit" value="Recover password">
+  </form>
+</section>
